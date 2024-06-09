@@ -1,5 +1,5 @@
 resource "aws_lightsail_instance" "custom" {
-  name              = "myserver"
+  name              = ""
   availability_zone = "us-east-1b"
   blueprint_id      = "amazon_linux_2"
   bundle_id         = "nano_3_0"
