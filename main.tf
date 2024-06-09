@@ -8,7 +8,7 @@ resource "aws_lightsail_instance" "custom" {
   tags ={
     Team = "DevOps"
     env  = "dev"
-    create_by = "terraform"
+    create_by = "terraform" 
   }
 }
 

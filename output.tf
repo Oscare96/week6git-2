@@ -4,3 +4,4 @@ output "my-public-ip" {
 output "My_username" {
   value = aws_lightsail_instance.custom.username
 }
+ 
